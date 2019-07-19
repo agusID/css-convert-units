@@ -14,6 +14,6 @@ npm install
 
 ## Authors
 
-* **Dwi Agustianto** - *Agus* - [convert-unit](https://github.com/agusID/convert-unit)
+* **Dwi Agustianto** - [convert-unit](https://github.com/agusID/convert-unit)
 
 See also the list of [contributors](https://github.com/agusID/convert-unit/contributors) who participated in this project.

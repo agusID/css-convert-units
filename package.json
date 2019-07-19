@@ -1,8 +1,27 @@
 {
+  "name": "convert-unit",
+  "version": "1.0.0",
+  "description": "Convert Unit Library",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agusID/convert-unit-library.git"
+  },
+  "keywords": [
+    "javascript",
+    "library"
+  ],
+  "author": "Dwi Agustianto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agusID/convert-unit-library/issues"
+  },
+  "homepage": "https://github.com/agusID/convert-unit-library#readme",
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/preset-flow": "^7.0.0",
     "flow-bin": "^0.103.0"
   }
 }
