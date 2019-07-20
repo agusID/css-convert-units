@@ -236,4 +236,4 @@ const convertUnit = (
   return `${result}${unitResult}`
 }
 
-export default convertUnit
+module.exports = convertUnit

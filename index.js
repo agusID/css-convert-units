@@ -1,3 +1,2 @@
-// @flow
-import { convertUnit } from './src/libs/convert-unit/index.js'
-console.log('test')
+const convertUnit = require('./public/src/lib/convert-unit')
+console.log(convertUnit('10sp'))
