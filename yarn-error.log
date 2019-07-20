@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/12.1.0/bin/node /usr/local/Cellar/yarn/1.15.2/libexec/bin/yarn.js init
+  /usr/local/Cellar/node/12.1.0/bin/node /usr/local/Cellar/yarn/1.15.2/libexec/bin/yarn.js
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS
@@ -14,17 +14,12 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: canceled
-      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:125801:13)
-      at Interface.emit (events.js:196:13)
-      at Interface._ttyWrite (readline.js:877:16)
-      at ReadStream.onkeypress (readline.js:189:10)
-      at ReadStream.emit (events.js:196:13)
-      at emitKeys (internal/readline.js:424:14)
-      at emitKeys.next (<anonymous>)
-      at ReadStream.onData (readline.js:1145:36)
-      at ReadStream.emit (events.js:196:13)
-      at addChunk (_stream_readable.js:290:12)
+  SyntaxError: /Volumes/DW 17-1/convert-unit/package.json: Unexpected token } in JSON at position 986
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:315:13
 
 npm manifest: 
   {
@@ -34,6 +29,9 @@ npm manifest:
     "main": "index.js",
     "scripts": {
       "start": "node index.js",
+      "flow": "flow",
+      "flow:check": "flow check ./public/src/",
+      "flow:build": "flow-remove-types ./public/src/lib/convert-unit/flow-typed -d ./public/src/lib/convert-unit/ --all --pretty",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -51,8 +49,15 @@ npm manifest:
     },
     "homepage": "https://github.com/agusID/convert-unit-library#readme",
     "devDependencies": {
-      "flow-bin": "^0.103.0"
-    }
+      "flow-bin": "^0.103.0",
+      "flow-remove-types": "^2.103.0"
+    },
+    "dependencies": {
+      "module-alias": "^2.2.0"
+    },
+    "_moduleAliases": {
+      "@lib": "./public/src/lib",
+    },
   }
 
 yarn manifest: 

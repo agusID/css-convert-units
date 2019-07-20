@@ -28,5 +28,10 @@
     "flow-bin": "^0.103.0",
     "flow-remove-types": "^2.103.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "module-alias": "^2.2.0"
+  },
+  "_moduleAliases": {
+    "@lib": "public/src/lib"
+  }
 }
