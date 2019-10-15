@@ -1,5 +1,5 @@
 {
-  "name": "convert-unit",
+  "name": "convert-unit-library",
   "version": "1.0.0",
   "description": "Convert Unit Library",
   "main": "index.js",
