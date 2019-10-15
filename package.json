@@ -15,8 +15,10 @@
     "url": "git+https://github.com/agusID/convert-unit-library.git"
   },
   "keywords": [
-    "javascript",
-    "library"
+    "converter",
+    "convert",
+    "css",
+    "unit"
   ],
   "author": "Dwi Agustianto",
   "license": "MIT",
