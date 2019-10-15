@@ -1,6 +1,6 @@
 # CSS Convert Units
 
-**CSS Convert Units** is a library for convert unit
+**CSS Convert Units** is a library for convert css unit to another unit.
 
 ### Getting Started
 

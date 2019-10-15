@@ -1,7 +1,7 @@
 {
-  "name": "convert-unit-library",
+  "name": "css-convert-units",
   "version": "1.0.0",
-  "description": "Convert Unit Library",
+  "description": "CSS Convert Units is a library for convert css unit to another unit.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
