@@ -33,7 +33,7 @@ convertUnit(convertFrom, [convertTo], [dpi])
 
 check `./index.js` file:
 ```javascript
-const convertUnit = require('./public/src/lib/convert-unit')
+const convertUnit = require('css-convert-units')
 ```
 *Code Examples:*
 ```javascript
