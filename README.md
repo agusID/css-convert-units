@@ -6,12 +6,12 @@
 
 Use the `npm` or `yarn` to install dependencies.
 
-```
-$ npm install
+```bash
+$ npm i css-unit-converter
 ```
  or
-```
-$ yarn install
+```bash
+$ yarn add css-unit-converter
 ```
 ---
 Here is a description of an imaginary function convertUnit :
@@ -51,8 +51,13 @@ convertUnit('1px', 'rem') // output : 0.0625rem (mdpi is default dpi)
 ```javascript
 convertUnit('1px') // output : 0.0625rem (rem is default unit)
 ```
-## Authors
+## Maintainers
+<p>
+  <a href="https://github.com/agusID"><img 
+  width="50" src="https://avatars3.githubusercontent.com/u/13955708?s=460&v=4" alt="Dwi Agustianto">
+  </a>
+</p>
 
-* **Dwi Agustianto** - [convert-unit-library](https://github.com/agusID/convert-unit-library)
+**Dwi Agustianto** - [@agusID](https://github.com/agusID)
 
-See also the list of [contributors](https://github.com/agusID/convert-unit/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/agusID/css-convert-units/contributors) who participated in this project.
