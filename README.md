@@ -1,8 +1,5 @@
 # Convert Unit Library
 
-[![flow](https://img.shields.io/badge/%20-flow-green.svg)](https://flow.org/)
-[![javascript](https://img.shields.io/badge/%20-javascript-yellow.svg)](https://flow.org/)
-
 Convert unit is a library for convert unit
 
 ### Getting Started
@@ -15,26 +12,6 @@ $ npm install
  or
 ```
 $ yarn install
-```
-
-
-
-flow check
-```
-$ npm run flow:check
-```
-----
-in `package.json`
-```
-"flow:build": "flow-remove-types ./public/src/lib/convert-unit/flow-typed -d ./public/src/lib/convert-unit/ --all --pretty",
-```
-
-This script will get all files from `./public/src/lib/convert-unit/flow-typed`, remove types and output the resulting files into `./public/lib/convert-unit` folder. and then please run:
-```
-$ npm run flow:build
-```
-```
-$ npm start
 ```
 ---
 Here is a description of an imaginary function convertUnit :
