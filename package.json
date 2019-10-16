@@ -4,7 +4,8 @@
   "description": "CSS Convert Units is a library for convert css unit to another unit.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
