@@ -23,10 +23,6 @@
     "url": "https://github.com/agusID/convert-unit-library/issues"
   },
   "homepage": "https://github.com/agusID/convert-unit-library#readme",
-  "devDependencies": {
-    "flow-bin": "^0.103.0",
-    "flow-remove-types": "^2.103.0"
-  },
   "dependencies": {
     "module-alias": "^2.2.0"
   },
