@@ -2,7 +2,7 @@
 [![Build Status](https://img.shields.io/travis/agusID/css-convert-units/master)](https://img.shields.io/travis/agusID/css-convert-units/master)
 [![npm](https://img.shields.io/npm/v/css-convert-units?style=flat-square)](https://www.npmjs.com/package/css-convert-units)
 [![npm downloads](https://img.shields.io/npm/dt/css-convert-units?style=flat-square)](https://www.npmjs.com/package/css-convert-units)
-[![GitHub license](https://img.shields.io/github/license/agusID/css-convert-units)](https://github.com/agusID/css-convert-units/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/agusID/css-convert-units.svg?style=flat-square)](https://github.com/agusID/css-convert-units/blob/master/LICENSE)
 
 **CSS Convert Units** is a library for convert css unit to another unit.
 
