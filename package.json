@@ -4,11 +4,7 @@
   "description": "CSS Convert Units is a library for convert css unit to another unit.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "flow": "flow",
-    "flow:check": "flow check ./public/src/",
-    "flow:build": "flow-remove-types ./public/src/lib/convert-unit/flow-typed -d ./public/src/lib/convert-unit/ --all --pretty",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
