@@ -22,9 +22,9 @@ flow-remove-types@^2.103.0:
     vlq "^0.2.1"
 
 module-alias@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/module-alias/-/module-alias-2.2.0.tgz#a2e32275381642252bf0c51405f7a09a367479b5"
-  integrity sha512-O4bbvlZkHj2LUQhieQWWCr486ddc8X+WwRqi3QGnFKfknaxdHTOB7+xRgeyWHc6arpjgtT5SLLMMTFwUM3/x5w==
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/module-alias/-/module-alias-2.2.2.tgz#151cdcecc24e25739ff0aa6e51e1c5716974c0e0"
+  integrity sha512-A/78XjoX2EmNvppVWEhM2oGk3x4lLxnkEA4jTbaK97QKSDjkIoOsKQlfylt/d3kKKi596Qy3NP5XrXJ6fZIC9Q==
 
 node-modules-regexp@^1.0.0:
   version "1.0.0"
