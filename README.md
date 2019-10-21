@@ -11,11 +11,11 @@
 Use the `npm` or `yarn` to install dependencies.
 
 ```bash
-$ npm i css-unit-converter
+$ npm i css-convert-units
 ```
  or
 ```bash
-$ yarn add css-unit-converter
+$ yarn add css-convert-units
 ```
 ---
 Here is a description of an imaginary function convertUnit :
